@@ -1,0 +1,238 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+section {
+  padding: 100px 0;
+}
+
+container{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*====================== Header ======================*/
+header {
+  float: left; 
+  position: fixed;
+  display: table;
+  width: 20%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: #0A50EB;
+  z-index: 100;
+}
+
+
+.nav{
+  text-align: center;
+}
+
+#logo {
+  text-align: center;
+  margin:30px 10px;
+}
+
+.nav a {
+  color: #bebebe;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+
+
+nav a:hover {
+  color: #fff;
+}
+
+
+section {
+  float: right;
+  display: table;
+  width: 80%;
+  height: 100%;
+}
+
+
+/*====================== About ======================*/
+.about{
+  padding:0px 20px;
+}
+
+
+h1, h3{
+  text-transform: uppercase;
+}
+
+.myResume h1{
+  font-size: 55px;
+  font-family: 'Segoe UI' , sans-serif;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.myResume h3{
+  color: #0A50EB;
+  margin-bottom: 35px;
+  font-weight: bold;
+  font-family: 'Segoe',sans-serif;
+}
+
+.myResume p {
+  line-height: 24px;
+  text-align: justify;
+  margin:25px 0px;
+  color: #868e96;
+}
+
+.social_icons a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.social_icons i {
+  font-size: 15px;
+  background: grey;
+  width: 50px ;
+  height: 50px ;
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.blueText{
+  color: #0A50EB;
+}
+
+
+/*====================== Experience ======================*/
+
+.experience{
+  padding:0px 20px;
+}
+
+.list_left{
+  width: 70%;
+  float: left;
+}
+
+.list_right{
+  width: 30%;
+  float: left;
+  padding: 0 30px;
+}
+
+.experience h1{
+  font-size: 40px;
+  font-family: 'Segoe UI',sans-serif;
+  line-height: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.list h2{
+  font-size: 30px;
+  font-family: 'Segoe UI',sans-serif;
+  line-height: 30px;
+  text-transform: uppercase;
+  
+}
+
+.list h3{
+  font-size: 18px;
+  font-family: 'Segoe UI',sans-serif;
+  line-height: 30px;
+  color: #0A50EB;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.list_right p{
+  color: #0A50EB;
+  font-weight: bold;
+  text-align: right;
+}
+
+.list_left p{
+  margin-bottom: 50px;
+}
+
+
+/*====================== skills ======================*/
+.skills{
+  padding:0px 20px;
+}
+
+.skills h1{
+  font-size: 40px;
+  font-family: 'Segoe UI',sans-serif;
+  line-height: 50px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.skills h3{
+  font-size: 20px;
+  color: #0A50EB;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.icons {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.workflow li {
+  text-transform: capitalize;
+  color: #868e96;
+}
+
+.workflow ul li:before {
+  content:"\2714\0020";
+}
