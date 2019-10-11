@@ -1,15 +1,9 @@
-# My Friend List
-A simple web application for searching friends
+# Movie List
+A simple web application for movie fanatic
 
 ## Features
-- listing firends from firends api
-- searching firends by name
-- add firends to your favorite list
-- manage your favorite list
+- listing movies from movie api
+- searching movies by title
 
 ### Searching
-type the title of the firends in search bar
-### Favorite List
-In index page, press the `+` button on the firend to keep it into favorite list.
-You can checkout the favorite list 
-press `x` to remove it from favorite list
+type the title of the movies in search bar
